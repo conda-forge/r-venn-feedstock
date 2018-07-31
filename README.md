@@ -14,14 +14,16 @@ Summary: Draws and displays Venn diagrams up to 7 sets, and any Boolean union of
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-venn-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-venn-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-venn-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-venn-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-venn-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-venn-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-venn-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-venn-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-venn-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-venn-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-venn-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-venn-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-venn/badges/version.svg)](https://anaconda.org/conda-forge/r-venn)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-venn/badges/downloads.svg)](https://anaconda.org/conda-forge/r-venn)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--venn-green.svg)](https://anaconda.org/conda-forge/r-venn) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-venn.svg)](https://anaconda.org/conda-forge/r-venn) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-venn.svg)](https://anaconda.org/conda-forge/r-venn) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-venn.svg)](https://anaconda.org/conda-forge/r-venn) |
 
 Installing r-venn
 =================
@@ -66,6 +68,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
