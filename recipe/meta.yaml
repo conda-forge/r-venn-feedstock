@@ -1,4 +1,4 @@
-{% set version = '1.2' %}
+{% set version = '1.7' %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,10 +12,10 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/venn_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/venn/venn_{{ version }}.tar.gz
-  sha256: c01de6fbc62f5c6a8028542082e912b751f9efe5d5b063426d22dd11220a34a2
+  sha256: 92a12dc2035b8081a3a56bb15905155a29a73700ce94092a898d98ced92a9452
 
 build:
-  number: 1
+  number: 0
   skip: true  # [win32]
 
   rpaths:
