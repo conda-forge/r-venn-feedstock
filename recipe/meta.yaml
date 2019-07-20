@@ -25,7 +25,6 @@ build:
 requirements:
   build:
     - r-base
-
   run:
     - r-base
 
@@ -37,13 +36,10 @@ test:
 about:
   home: https://CRAN.R-project.org/package=venn
   license: GPL (>= 2)
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
   summary: Draws and displays Venn diagrams up to 7 sets, and any Boolean union of set intersections.
   license_family: GPL3
 
 extra:
   recipe-maintainers:
     - conda-forge/r
-    - dpryan79
-    - johanneskoester
-    - bgruening
-    - daler
