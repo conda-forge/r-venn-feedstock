@@ -23,10 +23,12 @@ build:
     - lib/
 
 requirements:
-  build:
+  host:
     - r-base
+    - r-admisc >=0.5
   run:
     - r-base
+    - r-admisc >=0.5
 
 test:
   commands:
