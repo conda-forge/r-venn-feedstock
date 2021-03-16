@@ -1,4 +1,4 @@
-{% set version = "1.9" %}
+{% set version = "1.10" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,11 +12,11 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/venn_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/venn/venn_{{ version }}.tar.gz
-  sha256: 19c96cd7daad83267c666106ceea742dbc1eed917922ce61b2088b9198e45b34
+  sha256: 65422a158cdc8581182d3d326e448e43ecc3764501a5dab1ccac1234b4f961e4
 
 build:
   noarch: generic
-  number: 1
+  number: 0
 
   rpaths:
     - lib/R/lib/
@@ -38,7 +38,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=venn
   license: GPL (>= 2)
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
   summary: Draws and displays Venn diagrams up to 7 sets, and any Boolean union of set intersections.
   license_family: GPL3
 
