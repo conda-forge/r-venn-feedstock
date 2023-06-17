@@ -1,11 +1,11 @@
-About r-venn
-============
+About r-venn-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-venn-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=venn
 
 Package license: GPL (>= 2)
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-venn-feedstock/blob/main/LICENSE.txt)
 
 Summary: Draws and displays Venn diagrams up to 7 sets, and any Boolean union of set intersections.
 
